@@ -1,0 +1,25 @@
+.container__footer{
+    display: flex;
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    font-family: 'Noto Serif', serif;
+}
+.right, .left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.right img, .left img{
+    width: 5%;
+    height: auto;
+    margin: 0 1%;
+}
+.left{
+    flex-direction: column;
+}
+.left:first-child{
+    text-align: center;
+    margin-top: 1rem;
+}

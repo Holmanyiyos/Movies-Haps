@@ -1,0 +1,49 @@
+.container{
+    max-width: 1200px;
+}
+.mycard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.card-title{
+    text-align: center;
+    margin: 50px;
+    font-size: 3rem;
+}
+.card-img{
+    width: 70%;
+    height: auto;
+    border-radius: 5%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.card-img img{
+    width: max-content;
+    height: max-content;
+}
+.body-card{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    border: 3px dashed darkblue;
+    padding: 1rem;
+}
+.section-card{
+    margin: 1rem;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first div span:first-child{
+    margin-right: 1rem;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
